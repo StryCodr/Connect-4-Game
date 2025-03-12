@@ -355,14 +355,13 @@ def start_game(player1, player2, board):
             else:
                 print("Error: Invalid number of players. Try again.\n\n")
                 start_game(player1, player2, board)
-    else:
+    elif num_players == 'DEVmode_0':
         #ai developement
-        if num_players == 'DEVmode_0':
-            return AI_dev_mode(player1, player2, board)
-        else:
+        return AI_dev_mode(player1, player2, board)
+    else:
         #if input is not a number
-            print("Error: Invalid input. Try again.\n\n")
-            start_game(player1, player2, board)
+        print("Error: Invalid input. Try again.\n\n")
+        start_game(player1, player2, board)
     
     
 #empty board format
