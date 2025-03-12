@@ -9,7 +9,7 @@ Features
  - Protection against possible errors
 
 Playing Game
-1. CLone the repository and run in preferred codespace
+1. Clone the repository or run it in your preferred codespace
 2. Play with a freind or by yourself against an AI opponent
 
 Extra details
