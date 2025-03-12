@@ -16,6 +16,8 @@ Extra details
 - 100% python
 - AI uses minimax / alpha-beta pruning algorithm
 - Device must be able to handle input functions to run
+- Feel free to provide suggestions, fork, or open issues. I am
+not very experienced with Python so I am open to improvements.
 
 License
 
